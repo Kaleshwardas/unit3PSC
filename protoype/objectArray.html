@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+  
+    function myArray(){
+        Object.defineProperty(this,"length",{
+            value:0,
+            writable:true,
+            enumerable:false,
+        });
+        this.length=arguments.length;
+     for(let i=0 ;i<arguments.length;i++){
+         this[i]=arguments[i];
+     }
+    }
+    let arr= new myArray(1,2,3,4,5,6);
+    console.log(Object.values(arr))
+     
+    //  push;
+    //  myArray.prototype.पुश=function(value){
+    //      this[this.length]=value;
+    //      this.length++;
+    //  }
+    //  arr.पुश(7);
+    //  console.log(arr)
+    //  myArray.prototype.पॉप =function(){
+    //    delete this[this.length-1]
+    //    this.length--;
+    //  }
+    //  arr.पॉप();
+    //  console.log(arr)
+    //  myArray.prototype.top =function(value){
+    //    let index= [this.length-1]
+    //    console.log(this[index])
+       
+    //  }
+    //  arr.top();
+    // //  console.log(arr3)
+    // myArray.prototype.print=function(){
+    // //    var bag=""
+    //     for(var i=0;i<this.length;i++){
+    //         console.log(i)
+    //     }
+    // }
+    // // 1,2,3,4,5
+    // // reverse 5,4,3,2,1
+    // arr.print();
+    // myArray.prototype.print_reverse=function(value){
+    //     let index=this.length-1;
+    //     let box=[];
+    //     for(var i=index;i>=0;i--){
+    //         box.push(arr[i])
+    //     }
+    //   console.log(box)
+    // }
+    // arr.print_reverse();
+    myArray.prototype.last_index=function(){
+        let index=this.length-1;
+         console.log(arr[index])
+    }
+    arr.last_index();
+  
+    
+
+</script>
