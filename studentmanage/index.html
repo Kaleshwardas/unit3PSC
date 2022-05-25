@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div id="navbar">
+       
+    
+            
+    </div>
+    <button id="dash">
+        <a href="dashbord.html">Dashboard</a>
+    </button>
+    <h1>Add Students Data</h1>
+    <form id="students_data" onsubmit="storeData(event)">
+      <input type="text" id="name"   placeholder="Name">
+      <!-- <input type="text" id="course" placeholder="Course"> -->
+
+      <select id="course">
+        <option value="">select Course</option>
+        <option value="FSD-I">FSD REGULAR</option>
+        <option value="FSD-II">FSD PART TIME</option>
+        <option value="GD">GRAPHIC DESIGN</option>
+        <option value="DS">DATA SCIENCE</option>
+       
+   </select><br>
+
+
+      <input type="number" id="unit" placeholder="Unit"><br>
+      <input type="text" id="image"  placeholder="Image"><br>
+      <input type="text" id="batch" placeholder="Batch">
+      <input type="submit" />
+   
+    </form>
+</html>
+
+<script src="index.js"></script>

@@ -1,0 +1,28 @@
+#navbar{
+    display: flex;
+    width:100%;
+    /* border:1px solid red; */
+    height:200px;
+    justify-content: space-around;
+
+}
+#dash{
+    background-color: brown;
+    color:white;
+}
+a{
+    color:white
+
+}
+h1{
+    text-align: center;
+}
+#student_data{
+    background-color: white;
+    border:1px solid red;
+    margin-left:150px;
+}
+input{
+    margin-bottom:10px;
+  
+}
