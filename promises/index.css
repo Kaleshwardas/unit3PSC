@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(235, 226, 214);
+}
+#main{
+    height:200px;
+    width:300px;
+    /* border:1px solid red; */
+    margin-left: 20px;
+    margin-top: 100px;
+}
+label{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+input{
+    height:16px;
+    width:16px;
+    margin:17px;
+    margin-left: 20px;
+
+
+}
+button{
+    margin-top: 40px;
+    height:30px;
+    width:120px;
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgb(202, 29, 23);
+    color:white;
+    font-size: 20px;
+    /* border-color: white; */
+}
+button:hover{
+    background-color: green;
+    
+}
+#itemOrder{
+    height:300px;
+    width:70%;
+    display: flex;
+    /* border:1px solid red; */
+    margin-left:340px;
+    margin-top:-200px;
+}
+#order{
+    height:100%;
+    width:50%;
+    /* border:1px solid red; */
+}
+#order2{
+    height:100%;
+    width:40%;
+    /* border:1px solid red; */
+    margin-left:20px
+}
+img{
+    height:100%;
+    width:100%;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
